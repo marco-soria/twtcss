@@ -1,5 +1,7 @@
 const openVariant = require('./src/plugins/openVariant.ts')
 const animationDelay = require('./src/plugins/animationDelay.ts')
+const tableCaption = require('./src/plugins/tableCaption.ts')
+const outlineSolid = require('./src/plugins/outlineSolid.ts')
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -42,6 +44,8 @@ export default {
   plugins: [
     openVariant,
     animationDelay,
+    tableCaption,
+    outlineSolid,
   ],
 }
 
