@@ -50,6 +50,7 @@ export const Hero = () => {
           />
           <button
             type="submit"
+            onClick={(e) => e.preventDefault()}
             className="cursor-pointer rounded-sm bg-pink-500 px-4 py-2 font-bold transition-colors hover:bg-sky-900 hover:shadow-lg hover:shadow-black/20"
           >
             Subscribe
