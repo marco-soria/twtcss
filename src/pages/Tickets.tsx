@@ -2,7 +2,7 @@
 
 export const Tickets = () => {
   return (
-    <div className="bg-slate-200 dark:bg-slate-900 ">
+    <div className="bg-slate-200 dark:bg-slate-900 pb-10 ">
         <div className=" mx-auto pt-20 max-w-screen-lg text-zinc-900 dark:text-zinc-200">
         <h2 className="">Tickets</h2>
         <table className="mt-5 table w-full border-collapse border border-zinc-500">
