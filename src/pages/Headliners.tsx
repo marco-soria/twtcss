@@ -39,7 +39,7 @@ export const Headliners: React.FC = () => {
               <div
                 id="carousel"
                 ref={carouselRef}
-                className="mt-4 flex w-full flex-1 snap-x gap-4 overflow-x-auto scroll-smooth pb-5"
+                className="mt-4 flex w-full flex-1 snap-x gap-4 overflow-x-auto scroll-smooth pb-5 scrollbar-none"
               >
                 <div className="min-w-[80%] md:min-w-[40%]">
                   <div

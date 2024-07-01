@@ -42,10 +42,12 @@ export default {
     },
   },
   plugins: [
+    
     openVariant,
     animationDelay,
     tableCaption,
     outlineSolid,
+    require('tailwind-scrollbar'),
   ],
 }
 
